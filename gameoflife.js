@@ -20,7 +20,7 @@ window.onload = function()
 	tempArray      = copy2dArray(gameBoardArray);
 	createGameBoard(document.getElementById("gameBoard"), gameBoardArray);
 	gameBoardArray = createFirstGenerationArray(gameBoardArray);
-	window.alert(isInArray(gameBoardArray[0][0]));
+	#window.alert(isInArray(gameBoardArray[0][0]));
 	for(i = 0; i < gameBoardArray.length; i++)
 	{
 		for(j = 0; j < gameBoardArray[i].length; j++)
