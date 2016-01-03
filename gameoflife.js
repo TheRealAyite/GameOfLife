@@ -9,11 +9,11 @@ window.onload = function()
 	var tempArray;
 	var secondDimension;
 
-	//firstDimension = window.prompt("Enter a Number");
-	//secondDimension = window.prompt("Enter a Number");
+	firstDimension = window.prompt("Enter a Number");
+	secondDimension = window.prompt("Enter a Number");
 
-	//firstDimension = Number(firstDimension);
-	//secondDimension = Number(secondDimension);
+	firstDimension = Number(firstDimension);
+	secondDimension = Number(secondDimension);
 
 
 	gameBoardArray = create2dArray(3,3,getDeadValue());
